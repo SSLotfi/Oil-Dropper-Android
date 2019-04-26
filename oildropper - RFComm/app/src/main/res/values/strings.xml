@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">oil dropper</string>
+    <string-array name="temp_values">
+        <item>30 °C</item>
+        <item>32 °C</item>
+        <item>34 °C</item>
+        <item>36 °C</item>
+        <item>38 °C</item>
+        <item>40 °C</item>
+    </string-array>
+    <string name="none_paired">nothing paired</string>
+</resources>

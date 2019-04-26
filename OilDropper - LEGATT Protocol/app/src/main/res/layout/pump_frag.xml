@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/pump_frag"
+    android:background="#00CC99">
+
+    <Button
+        android:id="@+id/pump11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Low" />
+
+    <Button
+        android:id="@+id/pump22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pump11"
+        android:layout_alignStart="@+id/pump11"
+        android:layout_below="@+id/pump11"
+        android:layout_marginTop="21dp"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/pump33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pump22"
+        android:layout_alignStart="@+id/pump22"
+        android:layout_below="@+id/pump22"
+        android:layout_marginTop="22dp"
+        android:text="High" />
+
+    <Button
+        android:id="@+id/offpump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pump33"
+        android:layout_alignStart="@+id/pump33"
+        android:layout_below="@+id/pump33"
+        android:layout_marginTop="21dp"
+        android:text="off" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:text="Pump Speed Control"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+</RelativeLayout>
